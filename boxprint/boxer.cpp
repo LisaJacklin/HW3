@@ -7,26 +7,27 @@
 using namespace std;
 
 //defines createBox and makes an integer the bounds for the box
-int createBox(int num) {
+int createBox(int value) {
 
-for (int a = 1; a <= num; a++)
-{
+
+    for (int a = 1; a <= value; a++)
+    {
     cout << "*";
-}
+    }
 cout << endl;
-for (int b = 1; b <= num; b++)
+for (int b = 1; b <= value; b++)
 {
-    for (int c = 1; c <= num; c++)
+    for (int c = 1; c <= value; c++)
     {
         cout << "*";
     }
-    for (int d = 1; d <= num; d++)
+    for (int d = 1; d <= value; d++)
     {
         cout << " ";
     }
     cout << "*" << endl;
 }
-for (int e = 1; e <= num; e++)
+for (int e = 1; e <= value; e++)
 {
     cout << "*";
 }

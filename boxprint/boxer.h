@@ -3,6 +3,6 @@
 
 
 //prototype of box of astericks
-int createBox();
+int createBox(int value);
 
 #endif

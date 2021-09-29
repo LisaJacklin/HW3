@@ -9,12 +9,14 @@
 //of layers to the box.
 
 #include <iostream>
+#include "boxer.h"
 
-
+int number;
 
 int main()
 {
-
-
+	std::cout << "please insert an integer.";
+	std::cin >> number;
+	createBox(number);
 }
 
