@@ -26,7 +26,12 @@ for (int b = 1; b <= 8; b++)
     }
 
     //the amount of spaces between the the astericks on the left and on the right
-    for (int d = 1; d <= 10; d++)
+    for (int d = 1; d <= 5; d++)
+    {
+        cout << " ";
+    }
+    std::cout << word;
+    for (int d = 1; d <= 5; d++)
     {
         cout << " ";
     }
