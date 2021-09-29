@@ -6,8 +6,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 //defines createBox and makes an integer the bounds for the box
 int createBox(std::string &word, int value) {
 
