@@ -6,6 +6,13 @@
 #include<iostream>
 using namespace std;
 
+
+void inWord(std::string &word) {
+
+}
+
+
+
 //defines createBox and makes an integer the bounds for the box
 int createBox(int value) {
 
