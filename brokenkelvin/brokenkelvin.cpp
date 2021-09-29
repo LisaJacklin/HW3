@@ -37,6 +37,7 @@ int main()
 	double k = ctok(c);
 
 	//cout has to be lower case, capital C is changed
-	// this line of code should not be needed since double ctok says return k which already prints k.
 	//cout << k << '\n';
+	// this line of code should not be needed since double ctok says return k which already prints k.
+
 }
