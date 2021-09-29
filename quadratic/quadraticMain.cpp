@@ -6,6 +6,9 @@
 
 #include <iostream>
 #include <cmath>
+
+#include "quadratic.hpp"
+
 using namespace std;
 
 int main() {
