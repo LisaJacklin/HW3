@@ -12,5 +12,17 @@
 
 int main() {
 
+	float a, b, c;
+
+	std::cout << " please insert: \n";
+	std::cout << " a value: ";
+	std::cin >>  a;
+	std::cout << "b value: ";
+	std::cin >>  b;
+	std::cout << "c value: ";
+	std::cin >>  c;
+
+	quadraticForm(a, b, c);
+
    
 }

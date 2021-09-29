@@ -3,4 +3,4 @@
 //CS 201
 //9/29/2021
 
-void quadraticForm(int a, int b, int c );
+void quadraticForm(float a, float b, float c );
