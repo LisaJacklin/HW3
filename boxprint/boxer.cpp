@@ -7,14 +7,9 @@
 using namespace std;
 
 
-void inWord(std::string &word) {
-
-}
-
-
 
 //defines createBox and makes an integer the bounds for the box
-int createBox(int value) {
+int createBox(std::string &word, int value) {
 
  //creates the top row of the box
  for (int a = 1; a <= 10; a++)

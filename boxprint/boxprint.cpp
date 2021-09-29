@@ -12,12 +12,17 @@
 #include "boxer.h"
 
 int number;
+std::string word;
 
 int main()
 {
-	std::cout << "please insert an integer.";
+	std::cout << "please insert an integer ";
 	std::cin >> number;
-	createBox(number);
+	std::cout << "please insert a string ";
+	std::cin >> word;
+
+	createBox(word, number);
 
 }
+
 
