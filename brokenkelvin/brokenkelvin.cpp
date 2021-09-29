@@ -24,7 +24,8 @@ int main()
 	double c = 0;
 	//what is d? d is not an integer that is defined so I changed it to c.
 	cin >> c;
-	//
+	//c does not need brackets or punctuation "" because otherwise it is considered a char value which 
+	//double does not accept
 	double k = ctok(c);
 
 	//cout has to be lower case, capital C is changed
